@@ -1,0 +1,31 @@
+{
+  "name": "angular-firebase",
+  "version": "1.0.0",
+  "author": "Bartholomej <bart@bartweb.cz>",
+  "description": "Lightweight Docker image based on NodeJS 9 with Angular CLI, Firebase Tools and yarn.",
+  "scripts": {
+    "version": "",
+    "postversion": "git push && git push --follow-tags",
+    "release:patch": "git checkout master && npm version patch -m \"chore(update): patch release %s 🐛 \"",
+    "release:minor": "git checkout master && npm version minor -m \"chore(update): release %s 🚀\"",
+    "release:major": "git checkout master && npm version major -m \"chore(update): major release %s 💥 \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartholomej/angular-firebase-docker.git"
+  },
+  "keywords": [
+    "angular",
+    "firebase",
+    "docker"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartholomej/angular-firebase-docker/issues"
+  },
+  "homepage": "https://github.com/bartholomej/angular-firebase-docker#readme",
+  "dependencies": {
+    "@angular/cli": "^1.7.2",
+    "firebase-tools": "^3.17.4"
+  }
+}
