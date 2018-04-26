@@ -3,6 +3,7 @@ sudo: required # is required to use docker service in travis
 language: node_js # can be any language
 node_js:
   - 9 # match the version
+  - 10
 
 services:
   - docker # required, but travis uses older version of docker :(
