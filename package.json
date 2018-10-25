@@ -26,6 +26,6 @@
   "homepage": "https://github.com/bartholomej/angular-firebase-docker#readme",
   "dependencies": {
     "@angular/cli": "^1.7.2",
-    "firebase-tools": "^3.17.4"
+    "firebase-tools": "^4.0.0"
   }
 }
