@@ -2,11 +2,11 @@
 
 # Angular CLI + Firebase: Docker image
 
-> Lightweight Docker image based on NodeJS 9 with:
-- NodeJS 9.x
-- Angular CLI 1.7.2+
-- Firebase Tools 3.17.4+
-- Yarn 1.5.1+
+> Lightweight Docker image based on NodeJS 11 with:
+- NodeJS 11.x
+- Angular CLI 8.0.2+
+- Firebase Tools 6.11.0+
+- Yarn 1.15.2+
 
 
 ## Examples
@@ -60,4 +60,11 @@ Can be pulled from Docker Hub
 
 ```docker
 docker pull bartholomej/angular-firebase
+```
+
+## Development
+```docker
+docker build -t angular-firebase:v6.x.x .
+docker tag angular-firebase:v6.x.x bartholomej/angular-firebase:v6.x.x
+docker push bartholomej/angular-firebase:v6.x.x
 ```
