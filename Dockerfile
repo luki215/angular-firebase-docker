@@ -17,6 +17,6 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN \
   apk update && \
   apk upgrade && \
-  apk add --no-cache git
+  apk add --no-cache openssh-client git
 RUN \
   yarn global add @angular/cli firebase-tools
